@@ -1,7 +1,7 @@
-import initMap from "./map";
-import * as ymaps from "faker/locale/.publish/scripts/prettify/jquery.min";
+/* eslint-disable no-undef */
+import initMap from './map'
 
 ymaps.ready(() => {
-  initMap(ymaps, "map");
-  console.log("inited");
-});
+  initMap(ymaps, 'map')
+  console.log('inited')
+})
